@@ -1,0 +1,109 @@
+/* Styling the company name in h1.*/
+h1{font-family: 'Berkshire Swash', cursive;}
+
+/* Determin the background. */
+body {
+ background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/graphicstock-keyboard-with-office-supplies-on-white-desk_S8ign37mZ_SB_PM.jpg");
+  background-size: cover;
+  background-attachment: fixed;}
+
+/* Testing if input is valad. */
+input:valid {
+  box-shadow: 0 0 5px 1px #00BFFF;
+  content: '✓';}
+
+input:invalid{
+  box-shadow: 0 0 5px 1px none;
+  content: '✖';
+}
+
+input:focus:invalid {
+  box-shadow: none;}
+
+/* Submit bottom. */
+#submit{ 
+  background: #F5DEB3; 
+  background-position: 0px -401px; 
+  border: solid 1px #000000; 
+  color: black;
+  height: 40px;
+  width: 120px;
+  margin-top: -1px;
+  padding-bottom: 2px;
+  border-radius: 30%;
+  margin:auto 0;
+  font-weight: bold;}
+
+#submit:hover {background: #D4AF37;background-position: 0px -501px;color: #000000; }
+#submit-center{
+  text-align: center;}
+
+
+/* Formating the head line. */
+#box-1{
+  flex-shrink:1;
+  text-align:center;
+  background-color: rgb(128,128,128, 0.8);
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+  margin-bottom:40px;}
+
+/* Formating the survey part. */
+#box-2{
+  background-color: rgb(128,128,128, 0.8);
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+  margin-left:250px;
+  margin-right:250px;}
+
+
+/* Addig media query. */
+@media screen and (max-width: 400px) {
+  #box-2 {
+    margin-left:1px;
+    margin-right:1px;}}
+
+@media only screen and (min-width: 400px) {
+    #additional {
+        width: 80%;
+        height: 100%;}}
+
+
+/* Formating the texts. */
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;}
+
+/* Formating the age part. */
+input[type=number]{ width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;}
+
+/* Formating the age part. */
+input[type=email]{ width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;}
+
+/* Formating the bottom lines */
+#thank-you{
+  text-align:center;}
+#ready{
+  text-align:center;}
+
+
+
