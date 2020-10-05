@@ -1,0 +1,144 @@
+<body>
+  <!-- Dowlanding the campany name font style. -->
+   <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+  
+  
+  <!-- The head line. -->
+  <header id="box-1">
+    <h1 id="title"> The Really Happy Cow survey</h1>
+    <p id="description">Fill out our informative survey to register The Really Happy Cow and get 10% of from your next purchase.</p>   
+  </header>
+  
+ <!-- Survey -->
+    <div id="box-2">
+    <form id="survey-form">
+
+ <!-- Base informations. -->
+      
+    <!-- Name. -->
+    <div>
+    <label for="name"  id="name-label">First and Last name:</label><br>
+    <input type="text" id="name" name="name" pattern="[A-Za-z]{3-120}" placeholder="Enter your first and last name" required><br><br>
+      
+    <!-- Email. -->
+    <label for="email" id="email-label"> E-mail: </label><br>
+    <input type="email" id="email" name="email" placeholder="Enter a valid email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size="64" maxlength="256" title="Please provide a valid e-mail adress" required><br><br>
+    <!-- Age. -->
+    <label for="age" id="number-label">Age:</label><br>
+    <input type="number" id="number" name="number" pattern= "[0-9]+" placeholder="Enter your age" min="1" max="120" required><br><br>
+  </div>
+
+  <!-- Gender. -->
+  <div id="dropdown">
+    <label for="gender">Gender:</label><br>
+    <select name="gender" id="gender">
+      <option value="none">Please select your gender</option>
+      <option value="female">Female</option>
+      <option value="male">Male</option>
+      <option value="other">Other</option>
+    </select>
+    <br><br>
+    </div>
+
+
+<!-- Informative questions. -->
+  <div>
+    <label for="first-question">Did you know just stroking, sitting next to or playing with a pet relaxes and calms the mind?</label><br>
+    <input type="radio" id="yes" name="yesorno" value="yes">
+    <label for="yes">Yes</label><br>
+    <input type="radio" id="no" name="yesorno" value="no">
+    <label for="no">No</label><br><br>
+  </div>
+
+      
+  <div>
+    <label for="second-question"> Did you know that each day, a person who eats a vegan diet saves 1,100 gallons of water, 45 pounds of grain, 30 sq ft of forested land, 20 lbs CO2 equivalent, and one animal’s life?</label><br><br>
+    <input type="checkbox" id="yes" name="yes" value="yes">
+    <label for="yes"> Yes </label><br>
+    <input type="checkbox" id="no" name="no" value="no">
+    <label for="no"> No </label><br><br>
+  </div>
+
+    <div>
+    <label for="third-question"> Did you know being vegan could save up to 724,925 gallons of water per person each year?</label><br><br>
+    <input type="checkbox" id="yes" name="yes" value="yes">
+    <label for="yes"> Yes </label><br>
+    <input type="checkbox" id="no" name="no" value="no">
+    <label for="no"> No </label><br><br>
+  </div>
+      
+          <div>
+    <label for="fourth-question"> Did you know being Vegan reduces the risk of heart disease?</label><br><br>
+    <input type="checkbox" id="yes" name="yes" value="yes">
+    <label for="yes"> Yes </label><br>
+    <input type="checkbox" id="no" name="no" value="no">
+    <label for="no"> No </label><br><br>
+  </div>
+      
+   <div>
+    <label for="fifth-question"> Did you know vegan diets can give you more energy?</label><br><br>
+    <input type="checkbox" id="yes" name="yes" value="yes">
+    <label for="yes"> Yes </label><br>
+    <input type="checkbox" id="no" name="no" value="no">
+    <label for="no"> No </label><br><br>
+  </div>
+      
+   <div>
+    <label for="sixth-question"> Did you know eating meat is one of the most significant contributors to the most serious environmental problems, at every scale from local to global?</label><br><br>
+    <input type="checkbox" id="yes" name="yes" value="yes">
+    <label for="yes"> Yes </label><br>
+    <input type="checkbox" id="no" name="no" value="no">
+    <label for="no"> No </label><br><br>
+  </div>
+      
+   <div>
+    <label for="seveth-question"> Did you know eating fresh fruits, vegetables, and whole grains means your body will have an abundance of antioxidants, which neutralize the free radicals that can bring on wrinkles, brown spots, and other signs of aging?</label><br><br>
+    <input type="checkbox" id="yes" name="yes" value="yes">
+    <label for="yes"> Yes </label><br>
+    <input type="checkbox" id="no" name="no" value="no">
+    <label for="no"> No </label><br><br>
+  </div>
+
+   <div>
+    <label for="eigth-question">Did you know animal protein, especially red and processed meat, has been shown in study after study to increase the risk of type 2 diabetes?</label><br><br>
+    <input type="checkbox" id="yes" name="yes" value="yes">
+    <label for="yes"> Yes </label><br>
+    <input type="checkbox" id="no" name="no" value="no">
+    <label for="no"> No </label><br><br>
+  </div>
+      
+      
+   <div>
+    <label for="nineth-question">Did you know an extremely high percentage of all the flesh butchered every year in the U.S. is contaminated with E. coli, campylobacter, listeria, or other dangerous bacteria that live in the intestinal tracts, flesh, and feces of animals.They can cause food poisoning – there are 75 million cases each year, 5,000 of which are fatal?</label><br><br>
+    <input type="checkbox" id="yes" name="yes" value="yes">
+    <label for="yes"> Yes </label><br>
+    <input type="checkbox" id="no" name="no" value="no">
+    <label for="no"> No </label><br><br>
+  </div>
+
+<!-- Comments. -->
+  <div>
+  <label for="additional">If you have any comment please write it here:</label><br><br>
+  <textarea id="additional" name="addicional" rows="4" cols="60" placeholder="You can add your text here...">
+    </textarea>
+    <br><br>
+  </div>
+
+ <!-- Finish lines. -->
+     <div>
+      <p id="ready"> If you finished please hit the Submit bottom. Your cupon code will be send to your e-mail adress. </p>
+    </div>
+<!-- Submit the survey. -->
+  <div>
+    <p id="submit-center">
+    <input type="submit" value="Submit" id="submit"></p>
+  </div>
+
+ <!-- Thank you line. -->
+    <div>
+      <p id="thank-you"> Thank you for taking this survey </p>
+    </div>
+ 
+  </div>
+  </form>  
+</body>
