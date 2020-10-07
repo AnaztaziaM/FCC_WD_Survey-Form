@@ -1,6 +1,6 @@
 # FCC_WD_Survey-Form
-FreeCodeCamp- Responsive Web Design Certification course-Survey Form project.
-This project is one of the projects in FeeCodeCamp- Responsive Web Design Certification course. The README is created by Freecodecamp.I am using these to illustrate why is my code looks like it is. You can see my webpage here:https://codepen.io/anaztaziam/full/NWNmLPz
+**FreeCodeCamp- Responsive Web Design Certification course-Survey Form project.**
+**This project is one of the projects in FeeCodeCamp- Responsive Web Design Certification course. The README is created by Freecodecamp.I am using these to illustrate why is my code looks like it is. You can see my webpage here:https://codepen.io/anaztaziam/full/NWNmLPz**
 
 
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/VPaoNP.
